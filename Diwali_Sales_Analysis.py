@@ -267,9 +267,3 @@ df.groupby('Product_ID')['Orders'].sum().nlargest(10).sort_values(ascending=Fals
 # ### 
 
 # *Married women age group 26-35 yrs from UP,  Maharastra and Karnataka working in IT, Healthcare and Aviation are more likely to buy products from Food, Clothing and Electronics category*
-
-# complete project on YouTube: https://www.youtube.com/@RishabhMishraOfficial
-#     
-# complete project on GitHub: https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis
-
-# Thank you!
