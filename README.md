@@ -102,7 +102,7 @@ Partner with companies in the IT, Healthcare, and Aviation sectors to reach empl
 7. Content Marketing:
 Develop content that resonates with the interests and preferences of the target audience. This could include blog posts, articles, or videos related to lifestyle, career, and product recommendations.
 
-9. In-Store Experience:
+8. In-Store Experience:
 If applicable, enhance the in-store experience for this demographic by creating sections or displays that feature products from the identified categories.
 
 9. Customer Loyalty Programs:
