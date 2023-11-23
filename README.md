@@ -1,5 +1,6 @@
 # Diwali-Sales-Project
-Introduction
+
+#Introduction
 
 This Python script analyzes Diwali sales data from a CSV file to gain insights into customer behavior and preferences. 
 The script utilizes popular data science libraries such as NumPy, Pandas, Matplotlib, and Seaborn.
