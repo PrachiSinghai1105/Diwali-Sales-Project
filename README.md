@@ -105,7 +105,7 @@ Develop content that resonates with the interests and preferences of the target 
 9. In-Store Experience:
 If applicable, enhance the in-store experience for this demographic by creating sections or displays that feature products from the identified categories.
 
-9.Customer Loyalty Programs:
+9. Customer Loyalty Programs:
 Implement loyalty programs to encourage repeat purchases from this specific demographic, offering exclusive benefits or rewards for their continued engagement.
 
 10. Feedback and Engagement:
