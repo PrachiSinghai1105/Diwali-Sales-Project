@@ -47,4 +47,33 @@ sns.barplot(data=sales_state, x='State', y='Orders')
 sales_state = df.groupby(['State'], as_index=False)['Amount'].sum().sort_values(by='Amount', ascending=False).head(10)
 sns.barplot(data=sales_state, x='State', y='Amount')
 
+These sections explore the distribution of orders and total sales across different states.
+
+Marital Status Analysis
+
+ax = sns.countplot(data=df, x='Marital_Status')
+sales_state = df.groupby(['Marital_Status', 'Gender'], as_index=False)['Amount'].sum().sort_values(by='Amount', ascending=False)
+sns.barplot(data=sales_state, x='Marital_Status', y='Amount', hue='Gender')
+
+These sections investigate the impact of marital status on sales, with a focus on the gender perspective.
+
+Occupation Analysis
+
+ax = sns.countplot(data=df, x='Occupation')
+sales_state = df.groupby(['Occupation'], as_index=False)['Amount'].sum().sort_values(by='Amount', ascending=False)
+sns.barplot(data=sales_state, x='Occupation', y='Amount')
+
+These sections examine the distribution of sales across different occupations.
+
+Product Category Analysis
+
+ax = sns.countplot(data=df, x='Product_Category')
+sales_state = df.groupby(['Product_Category'], as_index=False)['Amount'].sum().sort_values(by='Amount', ascending=False).head(10)
+sns.barplot(data=sales_state, x='Product_Category', y='Amount')
+
+These sections analyze the sales distribution across various product categories.
+
+
+# Conclusion:
+# Married women age group 26-35 yrs from UP, Maharashtra, and Karnataka working in IT, Healthcare, and Aviation are more likely to buy products from Food, Clothing, and Electronics category
 
